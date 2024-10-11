@@ -7,6 +7,19 @@
     font-family: "Azeret Mono", monospace;
 }
 
+.second-section{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.common-p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 /* header nav start */
 nav{
     display: flex;
@@ -84,3 +97,91 @@ nav button{
 }
 
 /* main header section end */
+
+
+
+/* second-section start */
+
+.second-section{
+    margin-top: 100px; 
+    padding: 100px;
+
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
+}
+
+.second-section-first-card{
+    text-align: center;
+
+}
+
+.second-section-first-card h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.second-section-first-card p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.card-background{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+     padding-bottom: 48px; 
+     padding-right: 48px;
+     padding-left: 48px;
+}
+
+.second-section-second-card{
+    margin-top: 50px;
+    padding-top: 50px;
+    display: flex;
+    /* gap: 350px; */
+    justify-content: space-between;
+    
+}
+
+.first-card-h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+    
+}
+
+.first-card-button{
+    color: rgb(13, 19, 33);
+    background: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 30px;
+
+}
+
+
+
+.second-section-third-card{
+    margin-top: 50px;
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+
