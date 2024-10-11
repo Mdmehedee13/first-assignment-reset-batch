@@ -7,7 +7,8 @@
     font-family: "Azeret Mono", monospace;
 }
 
-.second-section{
+.second-section,
+.video-section{
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
@@ -116,7 +117,7 @@ background: rgba(13, 19, 33, 0.02);
 
 }
 
-.second-section-first-card h1{
+.common-h1{
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -184,4 +185,38 @@ background: rgba(13, 19, 33, 0.02);
     gap: 50px;
 }
 
+/* second dsection end */
 
+
+
+
+/* video section start */
+
+.video-section{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.video-description{
+    padding-left: 144px;
+    padding-right: 144px;
+}
+
+.video-section h1{
+    margin-bottom: 20px;
+}
+
+.main-video{
+    margin-top: 60px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 32px;
+
+}
+
+.youtube-video{
+    padding: 32px;
+    border-radius: 16px;
+
+}
