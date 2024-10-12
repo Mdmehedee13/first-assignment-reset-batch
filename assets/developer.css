@@ -8,7 +8,9 @@
 }
 
 .second-section,
-.video-section{
+.video-section,
+.target-section,
+.support-section{
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
@@ -219,4 +221,131 @@ padding: 32px;
     padding: 32px;
     border-radius: 16px;
 
+}
+
+/* video section end */
+
+
+
+/* target section start */
+
+.target-section{
+    margin-top: 50px;
+}
+.target-description{
+    text-align: center;
+}
+
+.target-h1{
+    color: rgb(13, 19, 33);
+
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.target-main a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+
+.target-html{
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.target-css{
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+padding: 40px;
+}
+
+.target-js{
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+padding: 40px;
+}
+
+.target-main{
+    display: flex;
+    gap: 24px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.target-main p{
+    margin-top: 5px;
+
+}
+
+/* target section end */
+
+
+.support-section{
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: url(handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1155px;
+    height: 313px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+   
+}
+.support-section h1{
+    color: rgb(255, 255, 255);
+  
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-input input{
+    color: rgba(13, 19, 33, 0.4);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+width: 313px;
+height: 19px;
+padding: 19px 20px 19px 20px;
+padding-right: 250px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+
+}
+
+.support-input button{
+    color: rgb(13, 19, 33);
+
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+padding: 17px 20px 17px 20px;
 }
