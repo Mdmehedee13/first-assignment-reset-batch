@@ -71,6 +71,7 @@ nav button{
     flex-direction: column;
     gap: 15px;
     text-align: center;
+    height: 652px;
 
 }
 
@@ -301,7 +302,7 @@ padding: 40px;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-image: url(handshake.jpg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(handshake.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -309,7 +310,7 @@ padding: 40px;
     height: 313px;
     padding: 64px 48px 64px 48px;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    
    
 }
 .support-section h1{
@@ -320,6 +321,15 @@ padding: 40px;
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
+}
+.support-section p{
+    color: rgb(255, 255, 255);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
 }
 
 .support-input input{
